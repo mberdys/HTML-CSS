@@ -102,7 +102,7 @@ section {
     transform: scaleY(0) translateX(-50%);
     padding-top: 12px;
     transition: $transition;
-    transform-origin:50% 0;
+    transform-origin: 50% 0;
     top: 130%;
 }
 
@@ -261,8 +261,6 @@ section {
     position: relative;
 }
 
-
-// nie mam pomyslu co zrobic zeby ten element nie wsuwal mi sie pod zdjecie
 .work-description {
     padding: 36px 0 36px 30px;
     text-align: left;
@@ -397,6 +395,7 @@ section {
 .footer-list ul li{
     display: inline;
     font-size: 0;
+    padding: 0 6px;
 }
 
 .page-footer i {
@@ -405,7 +404,7 @@ section {
     width: 60px;
     height: 60px;
     line-height: 60px;
-    color: $color-basic;
+    color: $color-four;
     border-radius: 50%;
     text-align: center;
     transition: $transition;
